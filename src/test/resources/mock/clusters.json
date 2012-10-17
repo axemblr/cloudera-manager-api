@@ -1,0 +1,12 @@
+{
+    "items":[
+        {
+            "name":"Cluster 1 - CDH4",
+            "version":"CDH4"
+        },
+        {
+            "name":"Cluster 2 - CDH3",
+            "version":"CDH3"
+        }
+    ]
+}

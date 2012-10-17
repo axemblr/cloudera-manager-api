@@ -1,0 +1,35 @@
+{
+    "roleTypeConfigs":[
+        {
+            "roleType":"DATANODE",
+            "items":[
+                {
+                    "name":"dfs_data_dir_list",
+                    "value":"/dfs/dn",
+                    "required":true,
+                    "displayName":"DataNode Data Directory",
+                    "description":"Comma-delimited list of directories on the local file system where the DataNode stores HDFS block data. Typical values are /data/N/dfs/dn for N = 1, 2, 3... These directories should be mounted using the noatime option and the disks should be configured using JBOD. RAID is not recommended.",
+                    "relatedName":"dfs.datanode.data.dir",
+                    "validationState":"OK"
+                },
+                {
+                    "name":"hadoop_metrics_dir",
+                    "required":false,
+                    "displayName":"Hadoop Metrics Output Directory",
+                    "description":"If using FileContext, directory to write metrics to.",
+                    "validationState":"OK",
+                    "default":"/tmp/metrics"
+                },
+                {
+                    "name":"dfs_datanode_http_port",
+                    "required":false,
+                    "displayName":"DataNode HTTP Web UI Port",
+                    "description":"Port for the DataNode HTTP web UI. Combined with the DataNode's hostname to build its HTTP address.",
+                    "relatedName":"dfs.datanode.http.address",
+                    "validationState":"OK",
+                    "default":"50075"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "nameservice":"name-service-01",
+    "zooKeeperService":{
+        "clusterName":"cluster-01",
+        "serviceName":"foo-bar"
+    },
+    "activeFCName":"active-fc",
+    "standByFCName":"standby-fc"
+}

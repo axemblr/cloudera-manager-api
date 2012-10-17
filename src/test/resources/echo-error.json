@@ -1,0 +1,4 @@
+{
+    "message":"An error message",
+    "causes":[ "A list of causes", "Potentially null" ]
+}

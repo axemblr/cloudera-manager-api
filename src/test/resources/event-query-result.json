@@ -1,0 +1,20 @@
+{
+    "totalResults":1,
+    "items":[
+        {
+            "id":"11",
+            "content":"a big event",
+            "timeOccurred":"1234",
+            "timeReceived":"2212",
+            "category":"UNKNOWN",
+            "severity":"UNKNOWN",
+            "alert":false,
+            "attributes":[
+                {
+                    "name":"simple-attr",
+                    "values":[ "1", "2" ]
+                }
+            ]
+        }
+    ]
+}

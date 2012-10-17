@@ -1,0 +1,13 @@
+{
+    "name":"metric-01",
+    "context":"cluster-01",
+    "unit":"second",
+    "data":[
+        {
+            "timestamp":12345,
+            "value":9991.5
+        }
+    ],
+    "displayName":"Metric la la la",
+    "description":"LaLa Metric"
+}

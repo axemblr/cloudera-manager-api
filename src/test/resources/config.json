@@ -1,0 +1,11 @@
+{
+    "name":"provider",
+    "value":"axemblr.com",
+    "required":false,
+    "default":"default",
+    "displayName":"Axemblr.com",
+    "description":"We deliver Hadoop in the cloud.",
+    "relatedName":"related",
+    "validationState":"OK",
+    "validationMessage":"validation message"
+}

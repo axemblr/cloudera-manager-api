@@ -1,0 +1,30 @@
+{
+    "roleTypeConfigs":[
+        {
+            "roleType":"MASTER",
+            "items":[ ]
+        },
+        {
+            "roleType":"REGIONSERVER",
+            "items":[ ]
+        },
+        {
+            "roleType":"GATEWAY",
+            "items":[ ]
+        }
+    ],
+    "items":[
+        {
+            "name":"hdfs_service",
+            "value":"hdfs1"
+        },
+        {
+            "name":"hdfs_rootdir",
+            "value":"/my_hbase"
+        },
+        {
+            "name":"zookeeper_service",
+            "value":"zookeeper1"
+        }
+    ]
+}

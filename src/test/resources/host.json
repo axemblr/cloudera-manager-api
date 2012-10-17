@@ -1,0 +1,22 @@
+{
+    "hostId":"123",
+    "ipAddress":"192.168.0.1",
+    "hostname":"host123",
+    "rackId":"555",
+    "lastHeartbeat":"2012-05-06T20:56:57.918Z",
+    "roleRefs":[
+        {
+            "clusterName":"cluster-01",
+            "serviceName":"service-01",
+            "roleName":"primary-role"
+        }
+    ],
+    "healthSummary":"DISABLED",
+    "healthChecks":[
+        {
+            "name":"check-01",
+            "summary":"DISABLED"
+        }
+    ],
+    "hostUrl":"http://axemblr.com"
+}

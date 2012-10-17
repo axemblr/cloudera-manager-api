@@ -1,0 +1,5 @@
+{
+    "clusterName":"cluster-01",
+    "serviceName":"service-01",
+    "roleName":"primary-role"
+}

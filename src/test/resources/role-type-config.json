@@ -1,0 +1,16 @@
+{
+    "roleType":"master-role",
+    "items":[
+        {
+            "name":"...",
+            "value":"...",
+            "required":false,
+            "default":"...",
+            "displayName":"...",
+            "description":"...",
+            "relatedName":"...",
+            "validationState":"OK",
+            "validationMessage":"..."
+        }
+    ]
+}

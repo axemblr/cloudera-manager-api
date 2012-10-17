@@ -1,0 +1,33 @@
+{
+    "roleTypeConfigs":[
+        {
+            "roleType":"MASTER",
+            "items":[
+                {
+                    "name":"config-01",
+                    "value":"value-01",
+                    "required":false,
+                    "default":"value-default",
+                    "displayName":"value-display",
+                    "description":"simple description",
+                    "relatedName":"bogus-config",
+                    "validationState":"OK",
+                    "validationMessage":"bogus message"
+                }
+            ]
+        }
+    ],
+    "items":[
+        {
+            "name":"config-01",
+            "value":"value-01",
+            "required":false,
+            "default":"value-default",
+            "displayName":"value-display",
+            "description":"simple description",
+            "relatedName":"bogus-config",
+            "validationState":"OK",
+            "validationMessage":"bogus message"
+        }
+    ]
+}

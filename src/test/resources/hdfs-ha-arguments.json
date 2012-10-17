@@ -1,0 +1,9 @@
+{
+    "activeName":"active-01",
+    "activeSharedEditsPath":"/share/edits",
+    "standByName":"standby-01",
+    "standBySharedEditsPath":"/share/edits/standby",
+    "nameservice":"name-service",
+    "startDependentServices":true,
+    "deployClientConfigs":false
+}

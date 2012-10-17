@@ -1,0 +1,6 @@
+{
+    "activeName":"primary",
+    "secondaryName":"secondary",
+    "startDependentServices":false,
+    "deployClientConfigs":false
+}

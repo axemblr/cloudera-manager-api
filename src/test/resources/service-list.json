@@ -1,0 +1,16 @@
+{
+    "items":[
+        {
+            "name":"service-01",
+            "type":"MAPREDUCE",
+            "clusterRef":{
+                "clusterName":"cluster-01"
+            },
+            "serviceState":"HISTORY_NOT_AVAILABLE",
+            "healthSummary":"DISABLED",
+            "configStale":false,
+            "healthChecks":[],
+            "serviceUrl":"/service/url"
+        }
+    ]
+}

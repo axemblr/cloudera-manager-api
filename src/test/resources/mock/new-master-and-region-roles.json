@@ -1,0 +1,30 @@
+{
+    "items":[
+        {
+            "name":"master1",
+            "type":"MASTER",
+            "configStale":false,
+            "hostRef":{
+                "hostId":"localhost"
+            },
+            "roleState":"STOPPED",
+            "serviceRef":{
+                "serviceName":"my_hbase",
+                "clusterName":"Cluster 1 - CDH4"
+            }
+        },
+        {
+            "name":"rs1",
+            "type":"REGIONSERVER",
+            "configStale":false,
+            "hostRef":{
+                "hostId":"localhost"
+            },
+            "roleState":"STOPPED",
+            "serviceRef":{
+                "serviceName":"my_hbase",
+                "clusterName":"Cluster 1 - CDH4"
+            }
+        }
+    ]
+}

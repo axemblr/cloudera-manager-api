@@ -1,0 +1,27 @@
+{
+    "id":"1",
+    "name":"restart",
+    "startTime":"2012-05-06T20:56:58.190Z",
+    "endTime":"2012-05-06T20:57:27.171Z",
+    "active":false,
+    "success":false,
+    "resultMessage":"cluster restarted",
+    "resultDataUrl":"/some/url",
+    "serviceRef":{
+        "clusterName":"cluster-01",
+        "serviceName":"service-01"
+    },
+    "roleRef":{
+        "clusterName":"cluster-01",
+        "serviceName":"service-01",
+        "roleName":"master"
+    },
+    "hostRef":{
+        "hostId":"host-01"
+    },
+    "parent":{
+        "id":"02"
+    }, "children":{
+    "items":[]
+}
+}

@@ -1,0 +1,40 @@
+{
+    "items":[
+        {
+            "name":"name-service-01",
+            "active":{
+                "clusterName":"cluster-01",
+                "serviceName":"service-01",
+                "roleName":"active"
+            },
+            "activeFailoverController":{
+                "clusterName":"cluster-01",
+                "serviceName":"service-01",
+                "roleName":"failover"
+            },
+            "standBy":{
+                "clusterName":"cluster-01",
+                "serviceName":"service-01",
+                "roleName":"standby"
+            },
+            "standByFailoverController":{
+                "clusterName":"cluster-01",
+                "serviceName":"service-01",
+                "roleName":"standby-failover"
+            },
+            "secondary":{
+                "clusterName":"cluster-01",
+                "serviceName":"service-01",
+                "roleName":"secondary"
+            },
+            "mountPoints":[ "/mount/point/1", "/mount/point/2" ],
+            "healthSummary":"DISABLED",
+            "healthChecks":[
+                {
+                    "name":"healthy-name-node",
+                    "summary":"DISABLED"
+                }
+            ]
+        }
+    ]
+}

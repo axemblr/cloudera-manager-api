@@ -1,0 +1,31 @@
+{
+    "id":142,
+    "name":"CreateRootDir",
+    "startTime":"2012-05-06T20:56:57.918Z",
+    "endTime":"2012-05-06T20:57:27.172Z",
+    "active":false,
+    "success":true,
+    "resultMessage":"Successfully created HBase root directory.",
+    "serviceRef":{
+        "serviceName":"my_hbase",
+        "clusterName":"Cluster 1 - CDH4"
+    },
+    "children":{
+        "items":[
+            {
+                "id":141,
+                "name":"CreateDir",
+                "startTime":"2012-05-06T20:56:58.190Z",
+                "endTime":"2012-05-06T20:57:27.171Z",
+                "active":false,
+                "success":true,
+                "resultMessage":"Sucessfully created directory.",
+                "roleRef":{
+                    "roleName":"hdfs1-NAMENODE-1",
+                    "serviceName":"hdfs1",
+                    "clusterName":"Cluster 1 - CDH4"
+                }
+            }
+        ]
+    }
+}

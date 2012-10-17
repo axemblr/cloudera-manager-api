@@ -1,0 +1,57 @@
+{
+    "roleTypeConfigs":[
+        {
+            "roleType":"DATANODE",
+            "items":[
+                {
+                    "name":"dfs_data_dir_list",
+                    "value":"/dfs/dn"
+                }
+            ]
+        },
+        {
+            "roleType":"NAMENODE",
+            "items":[
+                {
+                    "name":"dfs_name_dir_list",
+                    "value":"/dfs/nn"
+                }
+            ]
+        },
+        {
+            "roleType":"SECONDARYNAMENODE",
+            "items":[
+                {
+                    "name":"fs_checkpoint_dir_list",
+                    "value":"/dfs/snn"
+                }
+            ]
+        },
+        {
+            "roleType":"BALANCER",
+            "items":[ ]
+        },
+        {
+            "roleType":"GATEWAY",
+            "items":[ ]
+        },
+        {
+            "roleType":"HTTPFS",
+            "items":[ ]
+        },
+        {
+            "roleType":"FAILOVERCONTROLLER",
+            "items":[ ]
+        }
+    ],
+    "items":[
+        {
+            "name":"dfs_ha_fencing_cloudera_manager_secret_key",
+            "value":"K2TCx9h1sk5XXKW05Pa5Qv0MRDwruO"
+        },
+        {
+            "name":"zookeeper_service",
+            "value":"zookeeper1"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name":"activity-01",
+    "type":"UNKNOWN",
+    "parent":"activity-00",
+    "startTime":"111",
+    "finishTime":"999",
+    "id":"123",
+    "status":"UNKNOWN",
+    "user":"user-01",
+    "group":"group-01",
+    "inputDir":"/home/axemblr",
+    "outputDir":"/tmp",
+    "mapper":"org.apache.hadoop.CustomMapper",
+    "combiner":"org.apache.hadoop.CustomCombiner",
+    "reducer":"org.apache.hadoop.CustomReducer",
+    "queueName":"queue-name",
+    "schedulerPriority":"high"
+}

@@ -1,0 +1,13 @@
+{
+    "items":[
+        {
+            "name":"my_hbase",
+            "type":"HBASE",
+            "configStale":false,
+            "clusterRef":{
+                "clusterName":"Cluster 1 - CDH4"
+            },
+            "serviceState":"STOPPED"
+        }
+    ]
+}

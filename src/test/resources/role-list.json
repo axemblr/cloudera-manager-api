@@ -1,0 +1,25 @@
+{
+    "items":[
+        {
+            "name":"role-01",
+            "type":"NAMENODE",
+            "hostRef":{
+                "hostId":"host-01"
+            },
+            "serviceRef":{
+                "clusterName":"cluster-01",
+                "serviceName":"service-01"
+            },
+            "roleState":"HISTORY_NOT_AVAILABLE",
+            "healthSummary":"DISABLED",
+            "healthChecks":[
+                {
+                    "name":"healthy-name-node",
+                    "summary":"DISABLED"
+                }
+            ],
+            "haStatus":"ACTIVE",
+            "roleUrl":"/role/1"
+        }
+    ]
+}

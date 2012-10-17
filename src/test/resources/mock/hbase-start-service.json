@@ -1,0 +1,10 @@
+{
+    "id":145,
+    "name":"Start",
+    "startTime":"2012-05-06T21:00:22.326Z",
+    "active":true,
+    "serviceRef":{
+        "serviceName":"my_hbase",
+        "clusterName":"Cluster 1 - CDH4"
+    }
+}

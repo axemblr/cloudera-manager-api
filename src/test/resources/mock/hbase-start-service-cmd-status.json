@@ -1,0 +1,45 @@
+{
+    "id":145,
+    "name":"Start",
+    "startTime":"2012-05-06T21:00:22.326Z",
+    "endTime":"2012-05-06T21:00:54.079Z",
+    "active":false,
+    "success":true,
+    "resultMessage":"Service started successfully.",
+    "serviceRef":{
+        "serviceName":"my_hbase",
+        "clusterName":"Cluster 1 - CDH4"
+    },
+    "children":{
+        "items":[
+            {
+                "id":144,
+                "name":"Start",
+                "startTime":"2012-05-06T21:00:22.375Z",
+                "endTime":"2012-05-06T21:00:48.737Z",
+                "active":false,
+                "success":true,
+                "resultMessage":"Supervisor returned RUNNING",
+                "roleRef":{
+                    "roleName":"master1",
+                    "serviceName":"my_hbase",
+                    "clusterName":"Cluster 1 - CDH4"
+                }
+            },
+            {
+                "id":143,
+                "name":"Start",
+                "startTime":"2012-05-06T21:00:22.356Z",
+                "endTime":"2012-05-06T21:00:54.075Z",
+                "active":false,
+                "success":true,
+                "resultMessage":"Supervisor returned RUNNING",
+                "roleRef":{
+                    "roleName":"rs1",
+                    "serviceName":"my_hbase",
+                    "clusterName":"Cluster 1 - CDH4"
+                }
+            }
+        ]
+    }
+}

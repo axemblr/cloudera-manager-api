@@ -1,0 +1,15 @@
+{
+    "id":"123",
+    "content":"missing content",
+    "timeOccurred":"1224",
+    "timeReceived":"1249",
+    "category":"UNKNOWN",
+    "severity":"UNKNOWN",
+    "alert":false,
+    "attributes":[
+        {
+            "name":"revision",
+            "values":[ "11", "22" ]
+        }
+    ]
+}
